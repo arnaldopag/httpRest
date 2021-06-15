@@ -1,7 +1,11 @@
 body {
     margin: 0 auto;
     text-align: center;
+    background-color: gray;
 }
-form {
-    display: block;
+header {
+    height: 100px;
+    background-color: rgb(156, 17, 103);
+    color: white;
+    padding: 10px;
 }
