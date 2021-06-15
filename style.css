@@ -1,11 +1,24 @@
 body {
     margin: 0 auto;
     text-align: center;
-    background-color: gray;
+    background-color: aliceblue;
 }
 header {
     height: 100px;
-    background-color: rgb(156, 17, 103);
+    background-color: black;
     color: white;
     padding: 10px;
+}
+main {
+    height: 40rem;
+    background-color: aliceblue;
+}
+ul {
+    list-style: none;
+}
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
 }
