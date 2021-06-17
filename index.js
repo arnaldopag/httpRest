@@ -29,6 +29,13 @@ function cadastro(evento){
             recebeUsuario()
         })
 }
+function mostrarUsuario(){
+    for(const usuario of lista){
+        const li = document.createElement('li')
+        li.textContent = `${usuario.name} (${usuario.password})`
+        ul.appendChild(li)
+        }
+    }
 
 function recebeUsuario(){
     let requisicao = fetch(url)
@@ -41,10 +48,4 @@ function recebeUsuario(){
     })
 }
 
-function mostrarUsuario(){
-    for(const usuario of lista){
-        const li = document.createElement('li')
-        li.textContent = `${usuario.name} (${usuario.password})`
-        ul.appendChild(li)
-        }
-    }
+
